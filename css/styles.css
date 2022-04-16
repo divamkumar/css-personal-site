@@ -1,3 +1,11 @@
 body {
-    background-color: blue;
+    margin: 0px 0px 0px 0px;
+}
+
+div {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
 }
