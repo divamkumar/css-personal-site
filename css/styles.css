@@ -1,25 +1,75 @@
 body {
     margin: 0px 0px 0px 0px;
     text-align: center;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
+    color: #121212;
+    background-color: #F5F5F5;
 }
 
 h1 {
-    margin: 0px 0px 0px 0px;
+    margin: 50px auto 0 auto;
     font-family: 'Noto Serif Display', serif;
-    color: white;
-    ;
+    color: #F5F5F5;
+    font-size: 4rem;
+    font-weight: normal;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     color: #F05454;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
     color: #F05454;
 }
+
+p {
+    line-height: 2;
+    font-size: 1em;
+}
+
+hr {
+    border: dotted #30475E 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F05454;
+    text-decoration: none;
+}
+
+.btn {
+    background: #F05454;
+    background-image: -webkit-linear-gradient(top, #F05454, #F05454);
+    background-image: -moz-linear-gradient(top, #F05454, #F05454);
+    background-image: -ms-linear-gradient(top, #F05454, #F05454);
+    background-image: -o-linear-gradient(top, #F05454, #F05454);
+    background-image: linear-gradient(to bottom, #F05454, #F05454);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #F5F5F5;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f08888;
+    text-decoration: none;
+    color: #F5F5F5;
+  }
 
 .top-container {
     background-color: #30475E;
@@ -28,29 +78,84 @@ h3 {
 }
 
 .middle-container {
-
+    background-color: #F5F5F5;
+    margin: 100px 0;
 }
 
 .bottom-container {
+    background-color: #30475E;
+    padding: 50px 0 20px;
+    color: #F5F5F5;
+}
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 200px;
+    top: 100px;
 }
 
 .bottom-cloud {
     position: absolute;
-    bottom: 150px;
-    left: 300px;
+    bottom: 300px;
+    left: 200px;
 }
 
-.mountain {
-
+.mountain-img {
+    width: 50%;
 }
 
-#problem-solver {
+.gear-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.guitar-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.pen-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-link {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 50px;
+}
+
+#subtitle {
+    font-size: 1.25rem;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#intro {
+    width: 30%;
+    margin: auto;
+}
+
+#github-link {
+    color: #121212;
+}
+#github-link:hover {
     color: #F05454;
+}
+
+#contact-message {
+    width: 30%;
+    margin: 50px auto;
+}
+
+#copyright {
+    margin-top: 50px;
 }
